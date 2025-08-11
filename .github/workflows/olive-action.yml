@@ -1,11 +1,13 @@
 name: OLIVE Action
 
 on:
+  push:
+    branches:master
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
       - develop
-      - main
+      - master
 
 permissions:
   contents: read
