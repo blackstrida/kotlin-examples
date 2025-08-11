@@ -2,7 +2,7 @@ name: OLIVE Action
 
 on:
   push:
-    branches:master
+    branch:master
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
